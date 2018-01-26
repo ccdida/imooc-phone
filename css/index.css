@@ -1,0 +1,9 @@
+*{
+	padding:0;
+	margin:0;
+/*	border: 1px solid yellow;*/
+}
+body{
+	font-size: 12px;
+	font-family: "Microsoft YaHei",'微软雅黑';
+}
