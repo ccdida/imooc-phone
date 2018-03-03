@@ -46,7 +46,7 @@ a{
 /*这里用了nav，本身就已经是浮动的。因为需要下边框，所以上下都有内边距。但是为了和前面的统一，这里应该是一个高度，并且垂直居中。*/
 .header_nav--item{
 	display: inline-block;
-	width: 60px;/*刚开始不起作用，是因为a是内联元素。*/
+	width: 120px;/*刚开始不起作用，是因为a是内联元素。*/
 	margin:0px 20px;/*(60-28)/2=16 56-16(总距离-左边的下边框距离)=40*/
 	font-size: 14px;
 	text-align: center;/*文字在宽度60px中居中*/
@@ -141,6 +141,7 @@ a{
 	min-width: 800px;
 	height: 800px;
 	overflow: hidden;/*把phono隐藏*/
+	margin: 0 auto
 }
 .screen-2_wrap{
 	position: relative;
@@ -201,6 +202,7 @@ a{
 	max-width: 1375px;
 	min-width: 800px;
 	height: 800px;
+	margin: 0 auto
 }
 .screen-3_wrap{
 	position: relative;
@@ -291,6 +293,7 @@ a{
 	min-width: 800px;
 	height: 800px;
 	overflow: hidden;
+	margin: 0 auto
 }
 .screen-4_wrap{
 	position: relative;
@@ -371,6 +374,7 @@ a{
 	max-width: 1375px;	
 	min-width: 800px;
 	height: 800px;
+	margin: 0 auto
 
 }
 .screen-5_wrap{
@@ -412,6 +416,7 @@ a{
 	width: 100%;
 	height: 80px;
 	background: url(../img/bg-screen-buy.png) no-repeat bottom center;
+	background-size: 100% 100%;
 	padding: 120px 0px;
 }
 .buy-btn{
